@@ -13,7 +13,7 @@
 
 	<div class="menu">
 	PRODUCTS DEVICES DESIGNED FOR FEATURED SYNDCT 
-	<a href="javascript:abrepesq()">PESQUISA	
+	<a href="javascript:abrepesq()">PESQUISA</a>	
 		</div>
 
 	
@@ -29,10 +29,11 @@
 <script type="text/javascript">
 	function abrepesq(){
 		$('.menu').hide('slow');
-		//ou
-		//$('.menu').css('z-index',5);
 	}
 
+	$('.close').click( function(){
+		$('.menu').show('slow');
+	});
 </script>
 	
 </body>
